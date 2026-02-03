@@ -4,9 +4,9 @@
 
 本项目是国产编辑器嘉立创EDA Pro 3.0的第三方插件，由wuyuhanzijin开发，开发初衷是解决元件在原理图里和PCB里面不一致导致SMT下单时带来不必要的麻法的插件，使用本插件能一键排查出不一致的元件，用户可以随后自行修改，也可以导出csv。
 
-![alt text](https://github.com/wuyuhanzijin/jlceda-sch-pcb-comparer/blob/branch/images/1.png?raw=true)
+![image1](./images/1.png)
 
-![alt text](https://github.com/wuyuhanzijin/jlceda-sch-pcb-comparer/blob/branch/images/2.png?raw=true)
+![image2](./images/2.png)
 
 ## 注意事项
 
