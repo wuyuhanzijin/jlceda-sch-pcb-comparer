@@ -15,9 +15,9 @@
   },
   "categories": "Tool",
   "keywords": ["Compare", "Schematic", "PCB"],
-  "images": {
-    "logo": "./images/logo.svg"
-  },
+	"images": {
+		"logo": "./images/logo.png"
+	},
   "homepage": "",
   "bugs": "",
   "activationEvents": {},

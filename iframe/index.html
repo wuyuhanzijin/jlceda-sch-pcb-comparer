@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>原理图-PCB 对比</title>
+    <link rel="stylesheet" href="/iframe/css/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero-panel">
+          <div class="panel-actions">
+            <button id="btnLoadSch" class="primary">加载原理图元件</button>
+            <button id="btnLoadPcb" class="primary">加载PCB元件</button>
+            <button id="btnExportCsv" class="ghost" disabled>导出CSV</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="summary">
+        <div class="card">
+          <div class="card-label">原理图位号</div>
+          <div id="sumSch" class="card-value">-</div>
+        </div>
+        <div class="card">
+          <div class="card-label">PCB位号</div>
+          <div id="sumPcb" class="card-value">-</div>
+        </div>
+      </section>
+
+      <section class="results compare-panels">
+        <div>
+          <div class="section-title">原理图元件列表</div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>状态</th>
+                  <th>位号</th>
+                  <th>器件</th>
+                </tr>
+              </thead>
+              <tbody id="schBody">
+                <tr>
+                  <td class="muted" colspan="3">点击“加载原理图元件”生成结果</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <div class="section-title">PCB元件列表</div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>状态</th>
+                  <th>位号</th>
+                  <th>器件</th>
+                </tr>
+              </thead>
+              <tbody id="pcbBody">
+                <tr>
+                  <td class="muted" colspan="3">点击“加载PCB元件”生成结果</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="results">
+        <div class="section-title">比对异常汇总</div>
+        <div class="compare-grid">
+          <div>
+            <div class="sub-title">缺失(PCB)</div>
+            <div class="pill-list" id="missingPcbList">-</div>
+          </div>
+          <div>
+            <div class="sub-title">缺失(原理图)</div>
+            <div class="pill-list" id="missingSchList">-</div>
+          </div>
+          <div>
+            <div class="sub-title">冲突</div>
+            <div class="pill-list" id="conflictList">-</div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div id="statusText" class="status">就绪</div>
+        <div class="tips">提示：需分别打开原理图与PCB后加载对应元件列表。</div>
+      </footer>
+    </div>
+
+    <script src="/iframe/js/main.js"></script>
+  </body>
+</html>
