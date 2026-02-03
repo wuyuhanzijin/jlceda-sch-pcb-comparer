@@ -1,0 +1,82 @@
+{
+  "name": "jlceda-sch-pcb-comparer",
+  "uuid": "b59f2f1d1c5d4a9e9eaf6dfe1b8bd53b",
+  "displayName": "原理图-PCB 对比",
+  "description": "比对工程下原理图与PCB中同位号元件是否匹配或缺失",
+  "version": "1.0.0",
+  "engines": {
+    "publisher": "wuyuhanzijin",
+    "eda": "^3.0.0"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "extension-store",
+    "url": ""
+  },
+  "categories": "Tool",
+  "keywords": ["Compare", "Schematic", "PCB"],
+  "images": {
+    "logo": "./images/logo.svg"
+  },
+  "homepage": "",
+  "bugs": "",
+  "activationEvents": {},
+  "entry": "./dist/index",
+  "dependentExtensions": {},
+  "headerMenus": {
+    "home": [
+      {
+        "id": "sch-pcb-compare-home",
+        "title": "原理图-PCB 对比",
+        "menuItems": [
+          {
+            "id": "open",
+            "title": "打开对比面板",
+            "registerFn": "openIframe"
+          },
+          {
+            "id": "about",
+            "title": "关于...",
+            "registerFn": "about"
+          }
+        ]
+      }
+    ],
+    "sch": [
+      {
+        "id": "sch-pcb-compare-sch",
+        "title": "原理图-PCB 对比",
+        "menuItems": [
+          {
+            "id": "open",
+            "title": "打开对比面板",
+            "registerFn": "openIframe"
+          },
+          {
+            "id": "about",
+            "title": "关于...",
+            "registerFn": "about"
+          }
+        ]
+      }
+    ],
+    "pcb": [
+      {
+        "id": "sch-pcb-compare-pcb",
+        "title": "原理图-PCB 对比",
+        "menuItems": [
+          {
+            "id": "open",
+            "title": "打开对比面板",
+            "registerFn": "openIframe"
+          },
+          {
+            "id": "about",
+            "title": "关于...",
+            "registerFn": "about"
+          }
+        ]
+      }
+    ]
+  }
+}
