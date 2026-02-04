@@ -8,6 +8,11 @@
 
 ![image2](./images/2.png)
 
+## 项目链接
+
+- 仓库: https://github.com/wuyuhanzijin/jlceda-sch-pcb-comparer
+- Issues: https://github.com/wuyuhanzijin/jlceda-sch-pcb-comparer/issues
+
 ## 注意事项
 
 使用本插件打开窗口后需要在设计图打开状态下才能读取设计图的元件，切换到别的页面也就读取不到了，此外使用过程中不要关闭窗口，否则数据会丢失，建议提前打开设计图和PCB文件，然后点开对应的文件去读取

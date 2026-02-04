@@ -29,7 +29,7 @@ var edaEsbuildExportName = (() => {
   // extension.json
   var displayName = "\u539F\u7406\u56FE-PCB \u5BF9\u6BD4";
   var description = "\u6BD4\u5BF9\u5DE5\u7A0B\u4E0B\u539F\u7406\u56FE\u4E0EPCB\u4E2D\u540C\u4F4D\u53F7\u5143\u4EF6\u662F\u5426\u5339\u914D\u6216\u7F3A\u5931";
-  var version = "1.0.0";
+  var version = "1.0.1";
 
   // src/index.ts
   function activate(status, arg) {

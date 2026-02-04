@@ -3,7 +3,7 @@
   "uuid": "b59f2f1d1c5d4a9e9eaf6dfe1b8bd53b",
   "displayName": "原理图-PCB 对比",
   "description": "比对工程下原理图与PCB中同位号元件是否匹配或缺失",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "publisher": "wuyuhanzijin",
     "eda": "^3.0.0"
@@ -11,15 +11,15 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "extension-store",
-    "url": ""
+    "url": "https://github.com/wuyuhanzijin/jlceda-sch-pcb-comparer"
   },
   "categories": "Tool",
   "keywords": ["Compare", "Schematic", "PCB"],
 	"images": {
 		"logo": "./images/logo.png"
 	},
-  "homepage": "",
-  "bugs": "",
+  "homepage": "https://github.com/wuyuhanzijin/jlceda-sch-pcb-comparer",
+  "bugs": "https://github.com/wuyuhanzijin/jlceda-sch-pcb-comparer/issues",
   "activationEvents": {},
   "entry": "./dist/index",
   "dependentExtensions": {},
